@@ -1,0 +1,6 @@
+// 1st string- handles the transformation of ES6 into common Js
+// 2nd string - deals with JSX
+{
+  "presets": ["@babel/preset-env", "@babel/preset-react"],
+  "plugins": ["@babel/plugin-transform-runtime"]
+}
